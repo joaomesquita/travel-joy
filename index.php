@@ -3,19 +3,29 @@
 <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-overlay" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/banner.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block text-left">
+            <img src="img/banner.png" class="w-100" alt="...">
+            <div class="carousel-txt text-left">
                 <h2 class="title">Caribe</h2>
-                <p>O Caribe, também chamado Caraíbas, é uma região do continente americano formada pelo Mar do Caribe, suas ilhas e Estados insulares. Também é chamado de Antilhas ou Índias Ocidentais, nome originado pela crença inicial europeia de que o continente americano fosse a Índia. </p>
+                <p>O Caribe, também chamado Caraíbas, é uma região do continente americano formada pelo Mar do Caribe, suas ilhas e Estados insulares. Também é chamado de Antilhas ou Índias Ocidentais, nome originado pela crença inicial europeia de que o continente americano fosse a Índia.</p>
                 <a href="" class="btn btn-primary">Saiba Mais</a>
             </div>
-        <!-- </div>
-        <div class="carousel-item">
-            <img src="img/banner.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="img/banner.png" class="d-block w-100" alt="...">
-        </div> -->
+            <img src="img/banner.png" class="w-100" alt="...">
+            <div class="carousel-txt text-left">
+                <h2 class="title">Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veritatis dolore voluptate distinctio. Laborum perspiciatis voluptate repudiandae vero, delectus fugiat eum animi aliquid blanditiis, optio consectetur laboriosam totam obcaecati dicta.</p>
+                <a href="" class="btn btn-primary">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/banner.png" class="w-100" alt="...">
+            <div class="carousel-txt text-left">
+                <h2 class="title">China</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempora alias iste atque nisi minus excepturi maiores doloribus autem provident ut corporis repellendus, libero nostrum ipsa aliquid ipsam voluptatibus. Alias.</p>
+                <a href="" class="btn btn-primary">Saiba Mais</a>
+            </div>
+        </div>
     </div>
 </div>
 

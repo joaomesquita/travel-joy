@@ -12,61 +12,89 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top  ">
-        <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="img/logo.svg" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Inicial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="quem-somos.php">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="destinos.php">Destinos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ocasiao.php">Ocasião</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="amazonas.php">Amazonas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="bonus.php">Bônus</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.php">Blog</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav languages mr-auto">
-                    <li class="nav-item">
-                        <a href="#">
-                            <img src="img/linguagens/br.png" alt="">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">
-                            <img src="img/linguagens/uk.png" alt="">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">
-                            <img src="img/linguagens/es.png" alt="">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">
-                            <img src="img/linguagens/cn.png" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="index.php">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quem-somos.php">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinos.php">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ocasiao.php">Ocasião</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="amazonas.php">Amazonas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bonus.php">Bônus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.php">Blog</a>
+                </li>
+                <li class="nav-item social">
+                    <a href="#">
+						<span class="fa-stack fa-1x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+                    <a href="#">
+						<span class="fa-stack fa-1x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+                    <a href="#">
+						<span class="fa-stack fa-1x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+                </li>
+                <li class="nav-item hidden-md hidden-lg">
+                    <a href="#">
+                        <img src="img/linguagens/br.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/linguagens/uk.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/linguagens/es.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/linguagens/cn.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="languages">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="img/linguagens/br.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/linguagens/uk.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/linguagens/es.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/linguagens/cn.png" alt="">
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 

@@ -44,7 +44,7 @@
 					<a href="#">
 						<span class="fa-stack fa-1x">
 							<i class="fa fa-circle fa-stack-2x text-primary"></i>
-							<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+							<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
 						</span>
 					</a>
 					<a href="#">
@@ -68,11 +68,9 @@
 			</div>
 		</div>
 	</div>
-
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script> 
     <script src="js/owl.carousel.js"></script>
     <script src="js/script.js"></script>
-    
 </body>
 </html>
