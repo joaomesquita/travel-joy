@@ -13,6 +13,10 @@
 </head>
 <body>
 
+    <a target="_blank" class="whatsapp_float external" href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5567992859942">
+        <img src="img/whats.svg" alt="">
+    </a>
+
 	<div class="container py-4">
 		<a href="index.php">Inicial</a>
 		<a href="quem-somos.php">Quem Somos</a>
