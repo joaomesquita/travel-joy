@@ -3,14 +3,20 @@
 <div class="session">
     <div class="container">
     	<div class="row">
-    		<div class="col-md-12">
-    			<h1 class="title">Bônus</h1>
+    		<div class="col-md-6">
+    			<h1 class="title">Casamento</h1>
+    		</div>
+    		<div class="col-md-6 text-right">
+    			<a class="" href="ocasiao.php">
+    				<i class="fas fa-arrow-left"></i>
+    				Voltar
+    			</a>
     		</div>
     		<div class="col-md-12">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nulla a augue mollis dapibus. Proin accumsan, tortor vitae commodo porta, nulla erat porttitor erat, vitae molestie purus est vel dui. Pellentesque in ornare mauris. Cras sed enim nec diam sodales iaculis. Nam ligula turpis, fermentum et rhoncus at, egestas vel mauris. Sed id consequat magna. Nam id neque elementum eros pharetra tincidunt nec id odio.</p>
                 
                 <div class="text-center py-4">
-                    <img style="width: 100%;" src="img/bonus.png" alt="" />
+                    <img style="width: 100%;" src="img/interna-ocasiao.png" alt="" />
                 </div>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, arcu ut placerat dignissim, sem lorem euismod velit, sit amet venenatis odio nisi non lacus. Phasellus mollis non felis dignissim lobortis. Curabitur laoreet semper turpis in ultrices. Nullam molestie, tortor a malesuada condimentum, massa enim interdum odio, a laoreet turpis sem sit amet erat. Quisque placerat dapibus euismod. Maecenas feugiat, augue ac tempus maximus, sem ligula congue urna, ac commodo metus dolor ac sem. Nunc vestibulum dolor massa, quis consequat orci pulvinar ut.</p>
