@@ -1,6 +1,11 @@
-<?php include 'header.php'; ?>
+<?php include 'header-home.php'; ?>
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade carousel-overlay" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="img/banner.png" class="w-100" alt="...">
