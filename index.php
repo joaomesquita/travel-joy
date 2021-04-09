@@ -37,7 +37,7 @@
         <div class="row mt-5">
             <div class="col-md-12">
                 <h2 class="title">Para onde você quer ir?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error atque nobis ratione quos porro illo? Provident, illo, laborum impedit accusamus obcaecati aperiam, beatae doloremque quaerat eos dolore deserunt excepturi?</p>
+                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error atque nobis ratione quos porro illo? Provident, illo, laborum impedit accusamus obcaecati aperiam, beatae doloremque quaerat eos dolore deserunt excepturi?</p>
             </div>
         </div>
 
@@ -45,7 +45,7 @@
             <div class="col-md-3 col-6">
                 <div class="card">
                     <!-- 270x370 -->
-                    <a href="#">
+                    <a href="destino-interna.php">
                         <img src="img/onde_1.png" alt="" class="card-img">
                         <div class="card-img-overlay">
                             <h2 class="sm-title">África e Ilhas</h2>
@@ -56,7 +56,7 @@
 
             <div class="col-md-3 col-6">
                 <div class="card">
-                    <a href="#">
+                    <a href="destino-interna.php">
                         <img src="img/onde_2.png" alt="" class="card-img">
                         <div class="card-img-overlay">
                             <h2 class="sm-title">América Central e Caríbe</h2>
@@ -69,7 +69,7 @@
 
             <div class="col-md-3 col-6">
                 <div class="card">
-                    <a href="#">
+                    <a href="destino-interna.php">
                         <img src="img/onde_3.png" alt="" class="card-img">
                         <div class="card-img-overlay">
                             <h2 class="sm-title">América do Norte</h2>
@@ -80,7 +80,7 @@
 
             <div class="col-md-3 col-6">
                 <div class="card">
-                    <a href="#">
+                    <a href="destino-interna.php">
                         <img src="img/onde_4.png" alt="" class="card-img">
                         <div class="card-img-overlay">
                             <h2 class="sm-title">América do Sul</h2>
@@ -97,8 +97,8 @@
                     <a href="#">
                         <img src="img/tailandia.png" alt="" class="card-img">
                         <div class="card-img-overlay">
-                            <h2 class="lg-title">Tailândia</h2>
-                            <p class="hide-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quo minus quasi inventore, dolor facere reprehenderit. Unde sit natus temporibus nihil nisi non? Recusandae, iste alias. Quasi excepturi porro maxime.</p>
+                            <h2 class="lg-title hide-md mb-0 ml-3">Tailândia</h2>
+                            <p class="hide-md mb-0 ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quo minus quasi inventore, dolor facere reprehenderit. Unde sit natus temporibus nihil nisi non? Recusandae, iste alias. Quasi excepturi porro maxime.</p>
                         </div>
                     </a>
                 </div>
@@ -115,37 +115,37 @@
         <div class="row mt-4">
             <div class="col-md-2 col-6">
                 <!-- 170x170 -->
-                <a href="#">
+                <a href="interna-ocasiao.php">
                     <img src="img/ocasiao/ocasiao1.png" class="img-thumbnail mb-3" alt="">
                     <p class="p-title">Casamento</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
-                <a href="#">
+                <a href="interna-ocasiao.php">
                     <img src="img/ocasiao/ocasiao2.png" class="img-thumbnail mb-3" alt="">
                     <p class="p-title">Aniversário</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
-                <a href="#">
+                <a href="interna-ocasiao.php">
                     <img src="img/ocasiao/ocasiao3.png" class="img-thumbnail mb-3" alt="">
                     <p class="p-title">Conquistas</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
-                <a href="#">
+                <a href="interna-ocasiao.php">
                     <img src="img/ocasiao/ocasiao4.png" class="img-thumbnail mb-3" alt="">
                     <p class="p-title">Formatura</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
-                <a href="#">
+                <a href="interna-ocasiao.php">
                     <img src="img/ocasiao/ocasiao5.png" class="img-thumbnail mb-3" alt="">
                     <p class="p-title">Celebração</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
-                <a href="#">
+                <a href="interna-ocasiao.php">
                     <img src="img/ocasiao/ocasiao6.png" class="img-thumbnail mb-3" alt="">
                     <p class="p-title">Bodas</p>
                 </a>

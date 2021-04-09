@@ -7,7 +7,6 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 body{font-family: 'Inter', sans-serif;}
 a{color: #4C6DC8;}
 a:hover{text-decoration: none}
@@ -98,9 +97,32 @@ p{font-size:16px;color:#636875}
     background-color: #4C6DC8;
     border-color: #4C6DC8;
 }
+.btn-outline-primary{border-color:#fff;color:#fff;font-size:13px;text-transform:uppercase}
+.btn-outline-primary:hover{background:#fff;border-color:#fff;color:#45547E;transition:.2s}
+.btn-primary{border-color:#4C6DC8;color:#fff; background: #4C6DC8; font-size:13px;text-transform:uppercase}
+.btn-primary:hover{border-color:#4C6DC8;color:#fff; background: #4C6DC8;}
+.color-1{color: #45547E;}
+.color-2{color: #6783D2;}
+.color-3{color: #fff;}
+.font-12{font-size: 12px;}
+.font-14{font-size: 14px;}
+.font-22{font-size: 22px;}
+.font-600{font-weight: bold;}
+.page-link{color: #45547E;}
+.page-item.active .page-link {background-color: #45547E;border-color: #45547E;}
+.footer{padding: 80px 0 20px 0;background: url(../img/bg_footer.png) no-repeat;background-size: cover;}
+.footer hr{background: rgb(255, 255, 255, .10);}
+.footer a.dev{text-decoration: underline;color: #fff;}
+.footer .creditos{color: #9B9EA5;font-size: 12px;}
+.footer .description{color: #8F97AE;font-size: 13px;}
+.footer .title{color: #fff;}
+.text-primary {color: #CFE7F0!important;}
+.fa-facebook:before, .fa-instagram:before, .fa-youtube:before {color: #3A4153;}
+.whatsapp_float {position: fixed;right: 25px;bottom: 25px;z-index: 9999;}
+.whatsapp_float img{width: 120px;}
 @media (max-width: 480px) {
-    .hidden-md{display: block;}
-    .hide-md{display: none;}
-    .card-img-overlay .sm-title{font-size: 16px;}
-    .card-img-overlay h2.lg-title {font-size: 28px;}
+.hidden-md{display: block;}
+.hide-md{display: none;}
+.card-img-overlay .sm-title{font-size: 16px;}
+.card-img-overlay h2.lg-title {font-size: 28px;}
 }
