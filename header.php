@@ -12,13 +12,60 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
 </head>
 <body>
-
-	<div class="container py-4">
-		<a href="index.php">Inicial</a>
-		<a href="quem-somos.php">Quem Somos</a>
-		<a href="destinos.php">Destinos</a>
-        <a href="ocasiao.php">Ocasião</a>
-        <a href="amazonas.php">Amazonas</a>
-        <a href="bonus.php">Bônus</a>
-        <a href="blog.php">Blog</a>
-	</div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top  ">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quem-somos.php">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinos.php">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ocasiao.php">Ocasião</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="amazonas.php">Amazonas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bonus.php">Bônus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.php">Blog</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav languages mr-auto">
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="img/linguagens/br.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="img/linguagens/uk.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="img/linguagens/es.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="img/linguagens/cn.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>

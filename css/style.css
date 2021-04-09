@@ -27,22 +27,77 @@ p{font-size:16px;color:#636875}
 .card-img-overlay h2.lg-title{font-size:38px}
 .card-img-overlay .sm-title{font-size:20px}
 .img-thumbnail{padding:0!important;border:0;border-radius:10px}
-.txt-thumbnail{font-size:17px;font-weight:bold;color:#45547E}
+.p-title{font-size:17px;font-weight:bold;color:#45547E}
 .alert{padding:30px;border-radius:10px;border:0;background-color:#45547E}
 .alert p,.alert h3{color:#fff}
 .alert h3{font-size:30px;font-weight:bold}
 .alert p{margin-bottom:0}
 .alert .btn-outline-primary{border-color:#fff;color:#fff;font-size:13px;text-transform:uppercase}
 .alert .btn-outline-primary:hover{background:#fff;color:#45547E;transition:.2s}
-
-
-
-
-
-
-
-
-
+.text-muted{font-size: 14px;}
+.media img {border-radius: 50px;}
+.client-box {
+	position: relative;
+    padding: 45px 25px;
+    border-radius: 10px;
+    background: #fff;
+}
+.client-box:after {
+	top: 100%;
+	left: 70%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #ffffff;
+	border-width: 20px;
+	margin-left: -20px;
+}
+.client-box p {
+    font-size: 14px;
+}
+.owl-carousel .item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.languages .nav-item {
+    margin-right: 5px;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    z-index: 10;
+    padding: 0;
+    color: #fff;
+    margin-bottom: -100px;
+    text-align: center;
+    width: 700px;
+    margin-left: -350px;
+}
+.carousel-caption h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 70px;
+}
+.carousel-caption p {
+    color: #fff;
+}
+.carousel-caption .btn-primary {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background-color: #4C6DC8;
+    border-color: #4C6DC8;
+}
 @media (max-width: 480px) {
     .hidden-md{display: block;}
     .hide-md{display: none;}

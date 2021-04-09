@@ -1,5 +1,24 @@
 <?php include 'header.php'; ?>
 
+<div id="carouselExampleFade" class="carousel slide carousel-fade carousel-overlay" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/banner.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-left">
+                <h2 class="title">Caribe</h2>
+                <p>O Caribe, também chamado Caraíbas, é uma região do continente americano formada pelo Mar do Caribe, suas ilhas e Estados insulares. Também é chamado de Antilhas ou Índias Ocidentais, nome originado pela crença inicial europeia de que o continente americano fosse a Índia. </p>
+                <a href="" class="btn btn-primary">Saiba Mais</a>
+            </div>
+        <!-- </div>
+        <div class="carousel-item">
+            <img src="img/banner.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/banner.png" class="d-block w-100" alt="...">
+        </div> -->
+    </div>
+</div>
+
 <div class="session">
     <div class="container">
         <div class="alert alert-primary">
@@ -98,37 +117,37 @@
                 <!-- 170x170 -->
                 <a href="#">
                     <img src="img/ocasiao/ocasiao1.png" class="img-thumbnail mb-3" alt="">
-                    <p class="txt-thumbnail">Casamento</p>
+                    <p class="p-title">Casamento</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
                 <a href="#">
                     <img src="img/ocasiao/ocasiao2.png" class="img-thumbnail mb-3" alt="">
-                    <p class="txt-thumbnail">Aniversário</p>
+                    <p class="p-title">Aniversário</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
                 <a href="#">
                     <img src="img/ocasiao/ocasiao3.png" class="img-thumbnail mb-3" alt="">
-                    <p class="txt-thumbnail">Conquistas</p>
+                    <p class="p-title">Conquistas</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
                 <a href="#">
                     <img src="img/ocasiao/ocasiao4.png" class="img-thumbnail mb-3" alt="">
-                    <p class="txt-thumbnail">Formatura</p>
+                    <p class="p-title">Formatura</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
                 <a href="#">
                     <img src="img/ocasiao/ocasiao5.png" class="img-thumbnail mb-3" alt="">
-                    <p class="txt-thumbnail">Celebração</p>
+                    <p class="p-title">Celebração</p>
                 </a>
             </div>
             <div class="col-md-2 col-6">
                 <a href="#">
                     <img src="img/ocasiao/ocasiao6.png" class="img-thumbnail mb-3" alt="">
-                    <p class="txt-thumbnail">Bodas</p>
+                    <p class="p-title">Bodas</p>
                 </a>
             </div>
         </div>
@@ -138,15 +157,58 @@
 <div class="session session-inverted">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <h2 class="title">Depoimentos <br>de quem Curtiu</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non nulla a augue mollis dapibus. Proin accumsan, tortor vitae commodo</p>
             </div>
-            <div class="col-md-6 hide-md text-right">
+            <div class="col-md-5 hide-md text-right">
                 <img src="img/aspas.png" alt="">
             </div>
         </div>
         
+        <div class="owl-carousel owl-theme mt-5">
+            <div class="item">
+                <div class="client-box shadow">
+                    <img src="img/aspas-icon.png" class="mb-2" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at rerum libero debitis consequuntur error eius vitae.</p>
+                </div>
+                <div class="media align-items-center mt-5 mb-3">
+                    <img src="img/depoimentos/depoimento1.png" class="shadow mr-3" alt="">
+                    <div class="media-body">
+                        <p class="p-title mb-0">Mussum</p>
+                        <p class="text-muted mb-0">Campo Grande MS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="client-box shadow">
+                    <img src="img/aspas-icon.png" class="mb-2" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at rerum libero debitis consequuntur error eius vitae. Quos quibusdam nulla facere accusantium ducimus laboriosam? Nam quo sit quae voluptas laboriosam?</p>
+                </div>
+                <div class="media align-items-center mt-5 mb-3">
+                    <img src="img/depoimentos/depoimento2.png" class="shadow mr-3" alt="">
+                    <div class="media-body">
+                        <p class="p-title mb-0">Agustinho Carrara</p>
+                        <p class="text-muted mb-0">São Paulo SP</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="client-box shadow">
+                    <img src="img/aspas-icon.png" class="mb-2" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="media align-items-center mt-5 mb-3">
+                    <img src="img/depoimentos/depoimento3.png" class="shadow mr-3" alt="">
+                    <div class="media-body">
+                        <p class="p-title mb-0">Chicó</p>
+                        <p class="text-muted mb-0">Curitiba PR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
